@@ -12,7 +12,7 @@
             "cwd": "${workspaceFolder}",
             "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "${config:iarvsc,debugger}",
+            "miDebuggerPath": "${config:iarvsc.debugger}",
             "debugServerPath": "${config:iarvsc.gdbServer}",
             "debugSeverArgs": "-if swd -singlerun -strict -endian little -speed auto -port 3333 -device ${config:iarvsc.device} -vd -strict -halt",
             "serverStarted": "Connected\\ to\\ target",
