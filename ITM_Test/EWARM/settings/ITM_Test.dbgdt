@@ -667,11 +667,11 @@
                 <Expr3>readProtectionEnable()</Expr3>
                 <Expr4>setOptionBytesWriteEnable()</Expr4>
                 <mql_val>
-                    <item></item>
-                    <item></item>
-                    <item></item>
-                    <item></item>
-                    <item></item>
+                    <item />
+                    <item />
+                    <item />
+                    <item />
+                    <item />
                 </mql_val>
                 <mql_fat>
                     <item>0</item>

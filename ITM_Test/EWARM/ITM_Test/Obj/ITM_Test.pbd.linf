@@ -1,6 +1,11 @@
 ﻿D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\ITM_Test.pbd
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\gpio.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\main.pbi
+D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_msp.pbi
+D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_it.pbi
+D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\usart.pbi
+D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\usb_otg.pbi
+D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\system_stm32l4xx.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_cortex.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_dma.pbi
@@ -12,7 +17,6 @@ D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_flash_ramfunc.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_gpio.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_i2c.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_i2c_ex.pbi
-D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_msp.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_pcd.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_pcd_ex.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_pwr.pbi
@@ -23,8 +27,4 @@ D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_tim.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_tim_ex.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_uart.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_hal_uart_ex.pbi
-D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_it.pbi
 D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\stm32l4xx_ll_usb.pbi
-D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\system_stm32l4xx.pbi
-D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\usart.pbi
-D:\TEST\STM32CUBE\ITM_Test\EWARM\ITM_Test\Obj\usb_otg.pbi

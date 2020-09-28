@@ -106,7 +106,7 @@ int main(void)
       i++;
 //      printf("%d\r\n", DWT->CYCCNT);
       printf("SWV Test\r\n");
-      ITM_SendChar('0' + (i % 10)); 
+//      ITM_SendChar('0' + (i % 10)); 
        
     } 
     /* USER CODE END WHILE */
@@ -191,24 +191,32 @@ void SystemClock_Config(void)
 void SysTick_Test()
 {
   Flag_var = 1;
-  //HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
+//  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
+}
+ 
+/*
+ * if the __write implementation uses internal buffering, uncomment
+ * the following line to ensure that we are called with "buffer" as 0
+ * (i.e. flush) when the application terminates.
+ */
+size_t __write(int handle, const unsigned char * buffer, size_t size)
+{
+  const unsigned char *itm_buffer = buffer;
+  size_t itm_size = size; 
+  
+  for (/* empty */; itm_size != 0; --itm_size)
+  {  
+    if(itm_size == size)
+      ITM_SendChar('0' + (i % 10));
+    ITM_SendChar(*itm_buffer++);
+  }
+  return size;
 }
 
-/*
-// * If the __write implementation uses internal buffering, uncomment
-// * the following line to ensure that we are called with "buffer" as 0
-// * (i.e. flush) when the application terminates.
-// */
-//size_t __write(int handle, const unsigned char * buffer, size_t size)
-//{
-//  const unsigned char *itm_buffer = buffer;
-//  size_t itm_size = size;
-//  for (/* Empty */; itm_size != 0; --itm_size)
-//  {
-//    ITM_SendChar(*itm_buffer++);
-//  }
-//  return size;
-//}
+size_t __read(int handle, unsigned char * buffer, size_t size)
+{
+  
+}
 /* USER CODE END 4 */
 
 /**

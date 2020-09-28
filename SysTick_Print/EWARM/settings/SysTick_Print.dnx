@@ -23,7 +23,7 @@
         <stlinkResetStrategy>2</stlinkResetStrategy>
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>3332793684</Checksum>
+        <Checksum>295861698</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -52,8 +52,8 @@
         <PcSampPOSTCNT>15</PcSampPOSTCNT>
         <PcSampIndex>0</PcSampIndex>
         <DataLogMode>0</DataLogMode>
-        <ITMportsEnable>62</ITMportsEnable>
-        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsEnable>63</ITMportsEnable>
+        <ITMportsTermIO>1</ITMportsTermIO>
         <ITMportsLogFile>0</ITMportsLogFile>
         <ITMlogFile>D:\TEST\STM32CUBE\SysTick_Print\EWARM\ITM.log</ITMlogFile>
     </SWOTraceHWSettings>
