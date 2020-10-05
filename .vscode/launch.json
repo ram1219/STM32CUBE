@@ -6,17 +6,18 @@
     "configurations": [
         {
             "name": "Debug GDBServer",
-            "type": "cppvsdbg",
+            "type": "cppdbg",
             "request": "launch",
             "program": "Path to the out file",
+            "stopAtEntry": true, 
             "cwd": "${workspaceFolder}",
             "externalConsole": true,
-            "MIMode": "gdb",
+            "MIMode": "gdb",   
             "miDebuggerPath": "${config:iarvsc.debugger}",
             "debugServerPath": "${config:iarvsc.gdbServer}",
             "debugSeverArgs": "-if swd -singlerun -strict -endian little -speed auto -port 3333 -device ${config:iarvsc.device} -vd -strict -halt",
             "serverStarted": "Connected\\ to\\ target",
-            "serverLaunchTimeout": 5000,
+            "serverLaunchTimeout": 5000,        
             "filterStderr": false,
             "filterStdout": true,
             "setupCommands": [
