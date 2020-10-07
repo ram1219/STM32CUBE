@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  28/Sep/2020  15:17:14
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  06/Oct/2020  09:56:35
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        D:\TEST\STM32CUBE\SysTick_Print\EWARM\SysTick_Print\List\SysTick_Print.map
 #    Command line =  
-#        -f C:\Users\User\AppData\Local\Temp\EWE0E1.tmp
+#        -f C:\Users\User\AppData\Local\Temp\EWA4EB.tmp
 #        (D:\TEST\STM32CUBE\SysTick_Print\EWARM\SysTick_Print\Obj\gpio.o
 #        D:\TEST\STM32CUBE\SysTick_Print\EWARM\SysTick_Print\Obj\main.o
 #        D:\TEST\STM32CUBE\SysTick_Print\EWARM\SysTick_Print\Obj\startup_stm32l496xx.o
@@ -620,7 +620,7 @@ __iar_zero_init3         0x800'11fb   0x3a  Code  Gb  zero_init3.o [4]
 __low_level_init         0x800'437b    0x4  Code  Gb  low_level_init.o [2]
 __lseek                  0x800'3da5   0x4a  Code  Gb  lseek.o [5]
 __vector_table           0x800'0000         Data  Gb  startup_stm32l496xx.o [1]
-__write                  0x800'322d   0x32  Code  Gb  main.o [1]
+__write                  0x800'322d   0x34  Code  Gb  main.o [1]
 _call_main               0x800'4369         Code  Gb  cmain.o [4]
 _exit                    0x800'4385         Code  Gb  cexit.o [4]
 _gLocale_mblen           0x800'11d1    0x4  Code  Gb  xlocale_c.o [2]
